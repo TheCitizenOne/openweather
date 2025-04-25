@@ -1,0 +1,70 @@
+{
+    "api_url": "https://api.open-meteo.com/v1/forecast",
+    "default_locations": {
+	"Ankara": {
+            "lat": 39.9199,
+            "lon": 32.8543
+        },
+	"Beijing": {
+            "lat": 39.9075,
+            "lon": 116.3972
+        },
+	"Berlin": {
+            "lat": 52.5244,
+            "lon": 13.4105
+        },
+	"Boston": {
+            "lat": 42.3601,
+            "lon": -71.0589
+        },
+	"Florence": {
+            "lat": 43.7792,
+            "lon": 11.2463
+        },
+	"Istanbul": {
+            "lat": 41.0138,
+            "lon": 28.9497
+        },
+	"Kyoto": {
+            "lat": 35.0211,
+            "lon": 135.7538
+        },
+	"London": {
+            "lat": 51.5085,
+            "lon": -0.1257
+        },
+        "Manchester": {
+            "lat": 53.4809,
+            "lon": -2.2374
+        },
+        "Moscow": {
+            "lat": 55.7522,
+            "lon": 37.6156
+        },
+	"Paris": {
+            "lat": 48.8534,
+            "lon": 2.3488
+        },
+	"San Fransisco": {
+            "lat": 37.7749,
+            "lon": -122.4194
+        },
+	"Shanghai": {
+	    "lat": 31.2222,
+	    "lon": 121.4581
+	},
+        "Tokyo": {
+            "lat": 35.6895,
+            "lon": 139.6917
+        },
+	"Osaka": {
+            "lat": 34.6937,
+            "lon": 34.6937
+        },
+	"Washington D.C.": {
+            "lat": 38.8951,
+            "lon": -77.0364
+        }
+    },
+    "favorites": []
+}
