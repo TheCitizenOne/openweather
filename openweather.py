@@ -24,6 +24,8 @@ DAYNIGHT = {0: 'Day', 1: 'Night'}
 
 # ---------- Main program ---------- #
 class WeatherApp:
+
+    # ----- Defining variables for WeatherApp ----- #
     def __init__(self, config_file='config.json'):
         self.load_config(config_file)
         self.favorites = self.config.get('favorites', [])
@@ -176,9 +178,8 @@ class WeatherApp:
             
 # ---------- API Networking ---------- #      
 class WeatherAPI:
-
     
-    # ----- Defining variables ----- #
+    # ----- Defining variables for WeatherAPI ----- #
     def __init__(self, location, locations, api_url):
         if location in locations:
             self.location = location
